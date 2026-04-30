@@ -2,7 +2,7 @@ name: XServer-Vmail-VPS
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 1 * * *'
+    - cron: '2 1 * * *'
 
 jobs:
   run_xserver_renew:
